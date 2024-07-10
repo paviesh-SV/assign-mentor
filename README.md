@@ -36,6 +36,28 @@ This system is used to manage student and mentor database, we can create student
 
 - MongoDB
 
+
+## Setup
+
+1.  Clone the repository: `git clone <repository-url>`
+2.  Navigate to the project directory: `cd mentor-student-management`
+3.  Install dependencies: `npm install`
+4.  Create a `.env` file in the project root and define the MongoDB connection string.
+5.  Start the server: `npm start`
+6.  Access the application at `http://localhost:<port>`
+
+
 ## Deployed URL Link
 
-*Check out My NodeJS Here*👉🏻
+*Check out My NodeJS Here*👉🏻 [![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)](https://assign-mentor-80w5.onrender.com)
+
+
+## .env Schema
+
+- Create a `.env` file in the directory.
+   - Define the following variables:
+
+     ```plaintext
+     PORT= <Your Port Number>
+     MONGODB_URI=<your-mongodb-uri>
+     ```
